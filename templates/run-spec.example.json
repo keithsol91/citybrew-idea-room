@@ -1,0 +1,29 @@
+{
+  "client": "City Brew Coffee",
+  "slug": "YYYY-MM-DD-topic",
+  "title": "Board Title",
+  "subtitle": "One-line AM review context.",
+  "status": "AM Review",
+  "created_at": "YYYY-MM-DD",
+  "guardrails": "Use real client assets where possible. AI mockups are visual direction only.",
+  "tags": ["3 concepts", "RICA-light", "designer brief after selection"],
+  "selected": [],
+  "ideas": [
+    {
+      "id": "01",
+      "title": "Idea Title",
+      "format": "Reel keyframe / Carousel / Static graphic / Story",
+      "readiness": "READY TO BRIEF / NEEDS AM INPUT / NEEDS CLIENT INPUT / HOLD",
+      "dependency": "Main blocker or none",
+      "next_action": "Use / revise / pick product / approve angle",
+      "category": "Perks / Product help / Local ritual / etc.",
+      "summary": "What the concept does and why it matters.",
+      "visual_direction": "What the AM/designer should see: social frame, shot, slide structure, overlay copy, motion cue.",
+      "on_asset_copy": "Draft on-image/on-video copy.",
+      "caption": "Draft caption sample.",
+      "assets_needed": ["asset 1", "asset 2", "fallback option"],
+      "room_notes": "Moxie/Riff/Piper rationale and warnings.",
+      "mockup": "assets/idea-01-mockup.webp"
+    }
+  ]
+}
