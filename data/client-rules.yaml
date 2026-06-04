@@ -1,0 +1,8 @@
+client: City Brew Coffee
+rules:
+  - Use real City Brew products/assets where possible.
+  - Keep copy warm, simple, and local-friendly.
+  - Do not invent offers, prices, or drink names.
+  - Avoid generic coffee-stock visuals.
+avoid: []
+memory_candidates: []

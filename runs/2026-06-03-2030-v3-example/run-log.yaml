@@ -1,0 +1,15 @@
+run_id: 2026-06-03-2030-v3-example
+client: City Brew Coffee
+status: AM Review
+prompt: Example V3 board scaffold
+concepts_shown:
+  - Your Usual Should Count
+  - Cold But Not Too Sweet?
+  - Meet Me At The Usual Table
+am_feedback: []
+killed_ideas:
+  - idea: Join Perks Today
+    reason: Too generic; no scroll-stopping customer truth.
+memory_candidates: []
+selected_ideas: []
+board_path: index.html

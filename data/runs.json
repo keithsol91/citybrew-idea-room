@@ -1,0 +1,15 @@
+{
+  "client": "City Brew Coffee",
+  "updated": "2026-06-03 21:47:12 EDT",
+  "runs": [
+    {
+      "id": "2026-06-03-2030-v3-example",
+      "title": "Perks + June Content Concepts",
+      "date": "2026-06-03",
+      "status": "AM Review",
+      "concept_count": 3,
+      "selected": [],
+      "path": "runs/2026-06-03-2030-v3-example/"
+    }
+  ]
+}

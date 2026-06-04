@@ -1,0 +1,10 @@
+run_id: {{run_id}}
+client: {{client}}
+status: {{status}}
+prompt: {{prompt}}
+concepts_shown: []
+am_feedback: []
+killed_ideas: []
+memory_candidates: []
+selected_ideas: []
+board_path: {{board_path}}
