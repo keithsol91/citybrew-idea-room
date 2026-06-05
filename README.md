@@ -26,7 +26,7 @@ python3 scripts/create_run.py --input data/new-run.json --no-commit
 Generate, commit, and push live:
 
 ```bash
-python3 scripts/create_run.py --input data/new-run.json --publish
+python3 scripts/create_run.py --input data/new-run.json --publish --approval APPROVE_PUBLISH_CITYBREW_BOARD
 ```
 
 The script will:

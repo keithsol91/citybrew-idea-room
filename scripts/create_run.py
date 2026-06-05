@@ -3,7 +3,7 @@
 
 Usage:
   python3 scripts/create_run.py --input data/example-run.json --no-commit
-  python3 scripts/create_run.py --input data/example-run.json --publish
+  python3 scripts/create_run.py --input data/example-run.json --publish --approval APPROVE_PUBLISH_CITYBREW_BOARD
 """
 import argparse
 import html
@@ -15,6 +15,7 @@ import sys
 from datetime import datetime
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+APPROVAL_PHRASE = "APPROVE_PUBLISH_CITYBREW_BOARD"
 
 
 def esc(value):
@@ -41,11 +42,22 @@ def load_spec(path):
 
 
 def validate_spec(spec):
+    if not isinstance(spec, dict):
+        raise ValueError("run spec must be a JSON object")
     ideas = spec.get("ideas") or []
-    if not ideas:
+    if not isinstance(ideas, list) or not ideas:
         raise ValueError("run spec must include at least one idea")
     if not spec.get("title"):
         raise ValueError("run spec must include title")
+    required = ["title", "format", "readiness", "summary", "visual_direction", "assets_needed"]
+    for idx, idea in enumerate(ideas, start=1):
+        if not isinstance(idea, dict):
+            raise ValueError(f"idea {idx} must be an object")
+        missing = [field for field in required if field not in idea or idea.get(field) in (None, "")]
+        if missing:
+            raise ValueError(f"idea {idx} missing required fields: {', '.join(missing)}")
+        if not isinstance(idea.get("assets_needed"), list):
+            raise ValueError(f"idea {idx} assets_needed must be a list")
 
 
 def idea_image_tag(idea):
@@ -167,12 +179,49 @@ def run(cmd):
     subprocess.run(cmd, cwd=ROOT, check=True)
 
 
+def git_status_short():
+    proc = subprocess.run(["git", "status", "--short"], cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr or "git status failed")
+    return proc.stdout.strip()
+
+
+def preexisting_dirty_lines_for_commit(input_arg):
+    dirty = git_status_short()
+    if not dirty:
+        return []
+    input_path = pathlib.Path(input_arg)
+    allowed_paths = set()
+    try:
+        allowed_paths.add(str(input_path.relative_to(ROOT)))
+    except ValueError:
+        pass
+    remaining = []
+    for line in dirty.splitlines():
+        path = line[3:] if len(line) > 3 else ""
+        if path in allowed_paths and line[:2] in {"??", " M", "M "}:
+            continue
+        remaining.append(line)
+    return remaining
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True)
-    parser.add_argument("--no-commit", action="store_true")
-    parser.add_argument("--publish", action="store_true")
+    parser.add_argument("--no-commit", action="store_true", help="Generate local files only (safe default; retained for compatibility)")
+    parser.add_argument("--commit", action="store_true", help="Commit generated board locally without pushing")
+    parser.add_argument("--publish", action="store_true", help="Commit and push; requires --approval phrase")
+    parser.add_argument("--approval", default="", help=f"Required exact phrase for --publish: {APPROVAL_PHRASE}")
     args = parser.parse_args(argv)
+    if args.publish and args.approval != APPROVAL_PHRASE:
+        print(f"publish requires --approval {APPROVAL_PHRASE}", file=sys.stderr)
+        return 2
+    if args.commit or args.publish:
+        dirty_lines = preexisting_dirty_lines_for_commit(args.input)
+        if dirty_lines:
+            print("commit/publish requires clean working tree except the current input spec", file=sys.stderr)
+            print("\n".join(dirty_lines), file=sys.stderr)
+            return 2
 
     try:
         spec = load_spec(args.input)
@@ -184,8 +233,15 @@ def main(argv=None):
         update_runs_json(spec, slug)
         run([sys.executable, str(ROOT / "scripts" / "generate_site.py")])
         run([sys.executable, str(ROOT / "scripts" / "validate_site.py")])
-        if not args.no_commit:
-            run(["git", "add", "index.html", "data/runs.json", f"runs/{slug}"])
+        should_commit = bool(args.commit or args.publish) and not args.no_commit
+        if should_commit:
+            input_path = pathlib.Path(args.input)
+            add_paths = ["index.html", "data/runs.json", f"runs/{slug}", "assets/css/board.css"]
+            try:
+                add_paths.append(str(input_path.relative_to(ROOT)))
+            except ValueError:
+                pass
+            run(["git", "add", *add_paths])
             run(["git", "commit", "-m", f"Add Idea Room run: {spec['title']}"])
             if args.publish:
                 run(["git", "push", "origin", "main"])

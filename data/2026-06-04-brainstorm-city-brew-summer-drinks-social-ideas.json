@@ -1,0 +1,97 @@
+{
+  "client": "City Brew Coffee",
+  "slug": "2026-06-04-brainstorm-city-brew-summer-drinks-social-ideas",
+  "title": "City Brew Coffee — AM Review Board",
+  "subtitle": "Brainstorm City Brew summer drinks social ideas",
+  "status": "AM Review",
+  "created_at": "2026-06-04",
+  "guardrails": "Use real client assets where possible. AI mockups are visual direction only. Do not invent product claims, offers, or drink names.",
+  "tags": [
+    "Idea Room",
+    "AM Review",
+    "designer brief after selection"
+  ],
+  "selected": [],
+  "ideas": [
+    {
+      "id": "01",
+      "title": "Summer Drink Field Guide",
+      "format": "carousel",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Saveable guide by flavor lane: bright + icy / creamy + sweet / coffee-forward / afternoon treat.",
+      "visual_direction": "Saveable guide by flavor lane: bright + icy / creamy + sweet / coffee-forward / afternoon treat.",
+      "on_asset_copy": "Summer Drink Field Guide",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie: Moxie kill gate: Overall: Strong strategic set, but keep it lane-based until drink details are confirmed. 1) Summer Drink Field Guide — Keep — Best survivor because it builds order confidence, is saveable, and avoids needing exact product claims. 2) Barista Pick My Summer Drink — Revise — Good human hook, but script must stay mood/craving-led instead of pretending baristas can recommend specific unconfirmed drinks. 3) Mountain West Errand Loop — Keep — Feels most ownable for City Brew because it ties summer drinks to local routine, not generic beverage content. 4) Summer Drink Roll Call — Revise — Useful engagement mechanic, but too light alone; make it a Stories companion that feeds into the Field Guide or Barista Reel. Survivors: Summer Drink Field Guide, Mountain West Errand Loop, Barista Pick My Summer Drink, Summer Drink Roll Call as support. Riff: ## Riff production pass: O…",
+      "mockup": ""
+    },
+    {
+      "id": "02",
+      "title": "Barista Pick My Summer Drink",
+      "format": "reel",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Barista maps customer moods to summer drink lanes.",
+      "visual_direction": "Barista maps customer moods to summer drink lanes.",
+      "on_asset_copy": "Barista Pick My Summer Drink",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie: Moxie kill gate: Overall: Strong strategic set, but keep it lane-based until drink details are confirmed. 1) Summer Drink Field Guide — Keep — Best survivor because it builds order confidence, is saveable, and avoids needing exact product claims. 2) Barista Pick My Summer Drink — Revise — Good human hook, but script must stay mood/craving-led instead of pretending baristas can recommend specific unconfirmed drinks. 3) Mountain West Errand Loop — Keep — Feels most ownable for City Brew because it ties summer drinks to local routine, not generic beverage content. 4) Summer Drink Roll Call — Revise — Useful engagement mechanic, but too light alone; make it a Stories companion that feeds into the Field Guide or Barista Reel. Survivors: Summer Drink Field Guide, Mountain West Errand Loop, Barista Pick My Summer Drink, Summer Drink Roll Call as support. Riff: ## Riff production pass: O…",
+      "mockup": ""
+    },
+    {
+      "id": "03",
+      "title": "Mountain West Errand Loop",
+      "format": "reel/static",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Coffee as the required stop before errands, lake bag, cooler, playlist.",
+      "visual_direction": "Coffee as the required stop before errands, lake bag, cooler, playlist.",
+      "on_asset_copy": "Mountain West Errand Loop",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie: Moxie kill gate: Overall: Strong strategic set, but keep it lane-based until drink details are confirmed. 1) Summer Drink Field Guide — Keep — Best survivor because it builds order confidence, is saveable, and avoids needing exact product claims. 2) Barista Pick My Summer Drink — Revise — Good human hook, but script must stay mood/craving-led instead of pretending baristas can recommend specific unconfirmed drinks. 3) Mountain West Errand Loop — Keep — Feels most ownable for City Brew because it ties summer drinks to local routine, not generic beverage content. 4) Summer Drink Roll Call — Revise — Useful engagement mechanic, but too light alone; make it a Stories companion that feeds into the Field Guide or Barista Reel. Survivors: Summer Drink Field Guide, Mountain West Errand Loop, Barista Pick My Summer Drink, Summer Drink Roll Call as support. Riff: ## Riff production pass: O…",
+      "mockup": ""
+    },
+    {
+      "id": "04",
+      "title": "Summer Drink Roll Call",
+      "format": "IG Stories",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Poll by craving then reveal drink lane.",
+      "visual_direction": "Poll by craving then reveal drink lane.",
+      "on_asset_copy": "Summer Drink Roll Call",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie: Moxie kill gate: Overall: Strong strategic set, but keep it lane-based until drink details are confirmed. 1) Summer Drink Field Guide — Keep — Best survivor because it builds order confidence, is saveable, and avoids needing exact product claims. 2) Barista Pick My Summer Drink — Revise — Good human hook, but script must stay mood/craving-led instead of pretending baristas can recommend specific unconfirmed drinks. 3) Mountain West Errand Loop — Keep — Feels most ownable for City Brew because it ties summer drinks to local routine, not generic beverage content. 4) Summer Drink Roll Call — Revise — Useful engagement mechanic, but too light alone; make it a Stories companion that feeds into the Field Guide or Barista Reel. Survivors: Summer Drink Field Guide, Mountain West Errand Loop, Barista Pick My Summer Drink, Summer Drink Roll Call as support. Riff: ## Riff production pass: O…",
+      "mockup": ""
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "client": "City Brew Coffee",
+  "slug": "2026-06-05-keith-asked-brainstorm-some-social-media-posts-for-summer-drinks-at-city-brew-co--for-summer-drinks",
+  "title": "City Brew Coffee — AM Review Board",
+  "subtitle": "Keith asked: brainstorm some social media posts for summer drinks at City Brew Coffee.",
+  "status": "AM Review",
+  "created_at": "2026-06-05",
+  "guardrails": "Use real client assets where possible. AI mockups are visual direction only. Do not invent product claims, offers, or drink names.",
+  "tags": [
+    "Idea Room",
+    "AM Review",
+    "designer brief after selection"
+  ],
+  "selected": [
+    "First Sip Soundcheck",
+    "Barista Receipt Notes",
+    "One Drink",
+    "Three Summer Jobs"
+  ],
+  "source_run_id": "20260605-191511-keith-asked-brainstorm-some-social-media-posts-for-summer-drinks-at-ci",
+  "ideas": [
+    {
+      "id": "01",
+      "title": "First Sip Soundcheck",
+      "format": "IG Reel / FB Reel",
+      "readiness": "READY TO BRIEF",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "A sensory cold-drink Reel built around actual audio/visual texture: ice scoop, lid snap, straw punch, swirl, first sip. Hook: 'You can hear when summer starts.' Uses approved summer drinks without needing a big shoot.",
+      "visual_direction": "A sensory cold-drink Reel built around actual audio/visual texture: ice scoop, lid snap, straw punch, swirl, first sip. Hook: 'You can hear when summer starts.' Uses approved summer drinks without needing a big shoot.",
+      "on_asset_copy": "First Sip Soundcheck",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Moxie kill gate: Overall: Strong batch, but the winners need named drinks and local/use-case specificity so they don’t become pretty-but-generic iced content. 1) First Sip Soundcheck — Keep — Best thumb-stop potential with a clear 1-second sensory hook and easy production from light in-store capture. 2) Order Like a Local: Summer Edition — Revise — Great brand fit, but needs approved Mountain West moments and exact drink names to avoid vague “summer lifestyle” copy. 3) One Drink, Three Summer Jobs — Keep — Useful if the client has one hero drink, and it gives routine/value customers clear reasons to order. 4) Barista Receipt Notes — Keep — Human, local, low-lift, and flexible across multiple drinks without requiring on-camera talent. 5) Summer Drink Proof Test — Revise — Visually strong, but currently overlaps…",
+      "mockup": ""
+    },
+    {
+      "id": "02",
+      "title": "Barista Receipt Notes",
+      "format": "Reel / static series",
+      "readiness": "READY TO BRIEF",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Barista writes tiny recommendation notes on receipt/cup sleeve: 'for sweet-tooth days,' 'for not-too-sweet people,' 'for iced-coffee loyalists.' Hook: 'If your order had a note from the barista…' Human, low-lift, product-accurate.",
+      "visual_direction": "Barista writes tiny recommendation notes on receipt/cup sleeve: 'for sweet-tooth days,' 'for not-too-sweet people,' 'for iced-coffee loyalists.' Hook: 'If your order had a note from the barista…' Human, low-lift, product-accurate.",
+      "on_asset_copy": "Barista Receipt Notes",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Moxie kill gate: Overall: Strong batch, but the winners need named drinks and local/use-case specificity so they don’t become pretty-but-generic iced content. 1) First Sip Soundcheck — Keep — Best thumb-stop potential with a clear 1-second sensory hook and easy production from light in-store capture. 2) Order Like a Local: Summer Edition — Revise — Great brand fit, but needs approved Mountain West moments and exact drink names to avoid vague “summer lifestyle” copy. 3) One Drink, Three Summer Jobs — Keep — Useful if the client has one hero drink, and it gives routine/value customers clear reasons to order. 4) Barista Receipt Notes — Keep — Human, local, low-lift, and flexible across multiple drinks without requiring on-camera talent. 5) Summer Drink Proof Test — Revise — Visually strong, but currently overlaps…",
+      "mockup": ""
+    },
+    {
+      "id": "03",
+      "title": "One Drink, Three Summer Jobs",
+      "format": "Carousel / Story sequence",
+      "readiness": "READY TO BRIEF",
+      "dependency": "Approved drink names/taste notes/assets if product-specific.",
+      "next_action": "Use / revise / confirm inputs",
+      "category": "Product help / seasonal ritual",
+      "summary": "Feature one priority summer drink across three real use cases: morning iced upgrade, afternoon reset, after-dinner treat. Hook: 'This one works harder than your average summer drink.' Good if client only has one hero product.",
+      "visual_direction": "Feature one priority summer drink across three real use cases: morning iced upgrade, afternoon reset, after-dinner treat. Hook: 'This one works harder than your average summer drink.' Good if client only has one hero product.",
+      "on_asset_copy": "One Drink, Three Summer Jobs",
+      "caption": "Draft caption after drink names and approved assets are confirmed.",
+      "assets_needed": [
+        "Approved drink/product image",
+        "Brand-safe lifestyle or store asset",
+        "Fallback: graphic treatment using approved product categories"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Moxie kill gate: Overall: Strong batch, but the winners need named drinks and local/use-case specificity so they don’t become pretty-but-generic iced content. 1) First Sip Soundcheck — Keep — Best thumb-stop potential with a clear 1-second sensory hook and easy production from light in-store capture. 2) Order Like a Local: Summer Edition — Revise — Great brand fit, but needs approved Mountain West moments and exact drink names to avoid vague “summer lifestyle” copy. 3) One Drink, Three Summer Jobs — Keep — Useful if the client has one hero drink, and it gives routine/value customers clear reasons to order. 4) Barista Receipt Notes — Keep — Human, local, low-lift, and flexible across multiple drinks without requiring on-camera talent. 5) Summer Drink Proof Test — Revise — Visually strong, but currently overlaps…",
+      "mockup": ""
+    }
+  ]
+}
