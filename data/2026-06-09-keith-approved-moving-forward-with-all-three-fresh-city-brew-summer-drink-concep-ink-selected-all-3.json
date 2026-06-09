@@ -1,0 +1,88 @@
+{
+  "client": "City Brew Coffee",
+  "slug": "2026-06-09-keith-approved-moving-forward-with-all-three-fresh-city-brew-summer-drink-concep-ink-selected-all-3",
+  "title": "City Brew Coffee — AM Review Board",
+  "subtitle": "Keith approved moving forward with all three fresh City Brew summer drink concepts: The Condensation Test, Choose Your Chill Level, and The…",
+  "status": "AM Review",
+  "created_at": "2026-06-09",
+  "guardrails": "Use real client assets where possible. AI mockups are visual direction only. Do not invent product claims, offers, or drink names.",
+  "tags": [
+    "Idea Room",
+    "AM Review",
+    "designer brief after selection"
+  ],
+  "selected": [
+    "The Condensation Test",
+    "Choose Your Chill Level",
+    "The 2 PM Melt"
+  ],
+  "source_run_id": "20260609-fresh-summer-drink-selected-all-3",
+  "ideas": [
+    {
+      "id": "01",
+      "title": "The Condensation Test",
+      "format": "Instagram Reel / Facebook Reel",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved iced summer drink name, final product visual, and product-accurate ingredient/topping visibility.",
+      "next_action": "Lead concept. Capture one iced drink macro sequence and confirm drink name for end card.",
+      "category": "Cold sensory product Reel",
+      "summary": "A thumb-stopping macro Reel that proves the drink is cold and craveable before the viewer even reads the drink name. The concept sells summer refreshment through condensation, ice, tactile sound, and a City Brew handoff instead of generic 'cool off' copy.",
+      "visual_direction": "Create a 6-8 second 9:16 Reel: macro condensation beads on an iced City Brew cup; ice clink/cup set-down/straw or lid snap; drink swirl or texture; the cup leaves a cold ring on the counter; final City Brew logo cup or handoff end card. Natural counter/window light is enough if the cup visibly looks cold. Use crisp tactile audio if available.",
+      "on_asset_copy": "If the cup doesn’t sweat, is it even summer? / Cold proof: passed. / [APPROVED DRINK NAME] at City Brew.",
+      "caption": "If your summer drink passes the condensation test, you’re in the right place. Try [APPROVED DRINK NAME] on your next City Brew stop.",
+      "assets_needed": [
+        "One approved iced summer drink",
+        "Macro footage/photo of condensation, ice, lid/straw, drink texture",
+        "City Brew cup/logo visible for final frame",
+        "Optional handoff shot",
+        "Approval of exact drink name before final export"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Manual gate: all three concepts approved by Keith for forward motion. Preserve product accuracy and avoid generic cool-off posts, menu-board layouts, invented product claims, unapproved local place claims, and unsafe driving implications. Riff: Manual production gate: build as designer-ready HTML board. The Condensation Test leads as a 6-8 sec macro Reel; Choose Your Chill Level becomes a Story sequence/carousel order-helper; The 2 PM Melt becomes a routine-based afternoon reset Reel. All require approved drink names/assets before final posting.",
+      "mockup": ""
+    },
+    {
+      "id": "02",
+      "title": "Choose Your Chill Level",
+      "format": "Instagram Stories sequence + Instagram/Facebook carousel",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "Approved drink-to-lane mapping, priority drink lineup, and taste notes/flavor lanes.",
+      "next_action": "Build Story structure now; finalize lane reveal once drink mapping is approved.",
+      "category": "Interactive order-helper",
+      "summary": "A useful Story/carousel order-helper that turns City Brew’s summer drink lineup into clear craving lanes: light refresh, coffee cold, or treat mode. It helps customers pick quickly without feeling like a menu board.",
+      "visual_direction": "Build a four-frame IG Story: opening lineup with 'Choose your chill level'; poll for Light refresh vs Treat mode; poll/quiz for Coffee-forward vs Sweet + creamy; lane reveal mapping each lane to an approved drink; final screenshot/save CTA. Carousel backup: cover, one slide per lane, final 'Save this for your next City Brew stop.' Keep large type and clean product cards, not crowded menu-board design.",
+      "on_asset_copy": "Choose your chill level. / Light refresh. / Coffee cold. / Treat mode. / Screenshot your summer lane.",
+      "caption": "Not sure where to start with summer drinks? Pick your chill level, save your lane, and make the next City Brew stop easy.",
+      "assets_needed": [
+        "2-3 approved summer drink photos or one lineup shot",
+        "Approved taste notes/flavor lanes for each drink",
+        "Brand assets for simple lane-card design",
+        "Poll/quiz sticker guidance for Story frames",
+        "Approval that lanes do not imply unapproved customizations"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Manual gate: all three concepts approved by Keith for forward motion. Preserve product accuracy and avoid generic cool-off posts, menu-board layouts, invented product claims, unapproved local place claims, and unsafe driving implications. Riff: Manual production gate: build as designer-ready HTML board. The Condensation Test leads as a 6-8 sec macro Reel; Choose Your Chill Level becomes a Story sequence/carousel order-helper; The 2 PM Melt becomes a routine-based afternoon reset Reel. All require approved drink names/assets before final posting.",
+      "mockup": ""
+    },
+    {
+      "id": "03",
+      "title": "The 2 PM Melt",
+      "format": "Instagram Reel / Facebook Reel",
+      "readiness": "NEEDS CLIENT INPUT",
+      "dependency": "One approved iced summer drink visual and confirmation of product name/availability.",
+      "next_action": "Shoot after hero drink is chosen; use object-led routine props and avoid active driving/location claims.",
+      "category": "Routine/lifestyle reset Reel",
+      "summary": "A real-life summer routine Reel where the day starts melting — work, errands, heat, scattered tasks — and a City Brew iced drink becomes the small afternoon reset. This makes the summer drink feel useful and emotionally true, not just pretty.",
+      "visual_direction": "Create a 7-10 second 9:16 Reel: sticky notes/laptop/receipt/errand bag to open with 'When summer hits at 2 PM'; sunglasses/keys/fan/packed-day props showing the day feeling full; City Brew drink lands on counter/desk/table; macro condensation/ice/sip/handoff; final product hero with City Brew logo and drink name. Keep it adult/real and not chaotic-parent content.",
+      "on_asset_copy": "When summer hits at 2 PM… / The melt is real. / Reset secured. / [APPROVED DRINK NAME] — your afternoon reset.",
+      "caption": "Some summer days need a second start. Make [APPROVED DRINK NAME] your afternoon reset on the next City Brew stop.",
+      "assets_needed": [
+        "One approved iced summer drink",
+        "Desk/counter/table setting",
+        "Props: sticky notes, receipt, keys, sunglasses, fan, tote, summer bag, laptop",
+        "Optional handoff or sip moment",
+        "Approval of drink name and availability/date limits"
+      ],
+      "room_notes": "Moxie/Riff notes are compact source material, not client-facing copy. Moxie: Manual gate: all three concepts approved by Keith for forward motion. Preserve product accuracy and avoid generic cool-off posts, menu-board layouts, invented product claims, unapproved local place claims, and unsafe driving implications. Riff: Manual production gate: build as designer-ready HTML board. The Condensation Test leads as a 6-8 sec macro Reel; Choose Your Chill Level becomes a Story sequence/carousel order-helper; The 2 PM Melt becomes a routine-based afternoon reset Reel. All require approved drink names/assets before final posting.",
+      "mockup": ""
+    }
+  ]
+}
